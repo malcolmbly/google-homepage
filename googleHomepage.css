@@ -5,18 +5,30 @@ ul {
     padding: 0;
 }
 
+li a{
+	padding: 8px;
+}
+
+.leftHeader{
+	float: left;
+}
+.rightHeader{
+	float:right;
+}
+
 input[type=text]{
-	width: 350px;
-	position: relative;
-	margin-top: 80px;
+	width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
 	margin-bottom: 20px;
-	left:38%;
+	background-color: rgb(255,255,255);
 	padding: 5px;
 
 }
 .buttons{
-	position: relative;
-	left:38%;
+	text-align: center;
 
 }
 input[type=submit]{
@@ -24,19 +36,33 @@ input[type=submit]{
 	width: 150px;
 	padding: 5px;
 	margin: 10px;
-	border-radius: 0px;
-	color:#5e5e5e;
-	background-color: #e8e8e8;
+	border-radius: 2px;
+	color:#757575
+	background-color: #f1f1f1;
+	border: 1px solid #f1f1f1;
+	font-family: arial,sans-serif;
 
 }
 input[type=submit]:hover{ 
 	color:0;
-	border-color: 0;
+	border-color: #d1d1d1;
 	font-weight: bolder;
+	background-color: #fafafa;
 }
 .logo{
-	position: relative;
-	left:40%;
-	top:50px;
-	
-
+	margin-top:100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Footer{
+	position: fixed;
+	width: 100%;
+    bottom: 0;
+}
+.leftFooter{
+	float: left;
+}
+.rightFooter{
+	float:right;
+}
