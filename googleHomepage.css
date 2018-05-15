@@ -64,9 +64,11 @@ input[type=submit]:hover{
 	margin-right: auto;
 }
 .Footer{
+	background-color: #e1e1e1;
 	position: fixed;
 	width: 100%;
     bottom: 0;
+    left: 0;
 }
 .leftFooter{
 	float: left;
